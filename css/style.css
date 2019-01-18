@@ -313,10 +313,9 @@ footer .copyright {
     }
     .subscribe .sub-input {
         margin-top: 20px;
-        margin-bottom: 100px;
     }
-    .subscribe .sub-input .row {
-        margin-bottom: 50px;
+    .jumbo-footer {
+        height: 328px;
     }
     .subscribe .sub-input .mail {
         border-radius: 22px;
