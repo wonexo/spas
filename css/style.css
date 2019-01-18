@@ -7,6 +7,7 @@ padding: 0;
 
 body {
     background-color: #fcfcfc;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 
@@ -82,6 +83,7 @@ nav li a:hover {
 }
 
 nav ul.horizontal-list a {
+    transition: 0.2s ease-in-out;
     color: #765c79;
     padding-left: 10px;
     padding-right: 10px;
@@ -89,6 +91,11 @@ nav ul.horizontal-list a {
     height: 20px;
     font-size: 14px;
     margin-top: 10px;
+}
+
+nav ul.horizontal-list a:hover {
+    transition: 0.2s ease-in-out;
+    color: #bd92c2;
 }
 
 nav ul.horizontal-list li:last-child a {
@@ -195,14 +202,15 @@ section.section-space {
 }
 
 
-/* .subscribe .mail,
-.subscribe .sub {
-    margin: 0;
-    display: inline-block;
-} */
+/* Footer section */
+
+footer .copyright {
+    font-size: 12px;
+    margin-bottom: 80px;
+}
 
 
-/* Below are extra custom libraries for easy implimentation*/
+/*----- Below are extra custom libraries for easy implimentation -------*/
 
 
 /*  Spa Image Class starts here */
@@ -295,6 +303,10 @@ section.section-space {
     }
     .subscribe .sub-input {
         margin-top: 20px;
+        margin-bottom: 100px;
+    }
+    .subscribe .sub-input .row {
+        margin-bottom: 50px;
     }
     .subscribe .sub-input .mail {
         border-radius: 22px;
