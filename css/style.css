@@ -136,12 +136,12 @@ section.section-space {
 
 .spa-box {
     height: 460px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .spa-box .spa-box-in {
     height: 220px;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 .spa-box .spa-box-in .spa-sum {
@@ -152,6 +152,8 @@ section.section-space {
 .spa-box .spa-sum {
     position: relative;
     top: 70%;
+    z-index: 4;
+    /* filter: brightness(100%); */
 }
 
 .rating i {
@@ -162,6 +164,53 @@ section.section-space {
 .jumbo-footer {
     height: 300px;
 }
+
+
+/*  Spa Image Class starts here */
+
+.spa1,
+.spa2,
+.spa3,
+.spa4,
+.spa1-lg,
+.spa2-lg,
+.spa3-lg {
+    background-size: cover;
+}
+
+.spa1 {
+    position: relative;
+    background-image: url('../img/pics/spa-two.jpg');
+    filter: brightness(90%);
+    z-index: -1;
+}
+
+.spa2 {
+    background-image: url('../img/pics/spa-treatment.jpg');
+}
+
+.spa3 {
+    background-image: url('../img/pics/spa.jpg');
+}
+
+.spa4 {
+    background-image: url('../img/pics/spa.png');
+}
+
+.spa1-lg {
+    background-image: url('../img/pics/spa-box-sample.png');
+}
+
+.spa2-lg {
+    background-image: url('../img/pics/spa-img-one.png');
+}
+
+.spa3-lg {
+    background-image: url('../img/pics/spa-four.jpg');
+}
+
+
+/* Spa Image Class Ends Here */
 
 
 /* MY extra Library Class */
@@ -207,6 +256,9 @@ section.section-space {
     }
     .quick-info .call-num {
         text-align: center;
+    }
+    .off-pad {
+        padding: 0 !important;
     }
 }
 
