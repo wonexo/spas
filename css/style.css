@@ -49,7 +49,8 @@ body {
     border-radius: 50px;
 }
 
-.search-brand .first-nav input[type=text]:focus {
+.search-brand .first-nav input[type=text]:focus,
+.subscribe .sub-input input[type=email]:focus {
     box-shadow: none;
     border-color: #c9c9c9;
 }
@@ -166,6 +167,44 @@ section.section-space {
 }
 
 
+/* Subcription Section */
+
+.subscribe .sub-input {
+    margin-top: 50px;
+}
+
+.subscribe .sub-input .mail {
+    height: 50px;
+    /* width: 50%; */
+    background: #fff;
+    /* padding: 1px 0; */
+    padding-left: 20px;
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+    color: #6b6b6b;
+}
+
+.subscribe .sub-input .sub {
+    height: 50px;
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+    color: white;
+    background: #765c79;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* .subscribe .mail,
+.subscribe .sub {
+    margin: 0;
+    display: inline-block;
+} */
+
+
+/* Below are extra custom libraries for easy implimentation*/
+
+
 /*  Spa Image Class starts here */
 
 .spa1,
@@ -228,12 +267,6 @@ section.section-space {
     margin-bottom: 0;
 }
 
-
-/* .spa-options .container {
-    position: relative;
-    bottom: 75px;
-} */
-
 @media only screen and (min-width: 993px) {
     .container {
         width: 82%;
@@ -259,6 +292,15 @@ section.section-space {
     }
     .off-pad {
         padding: 0 !important;
+    }
+    .subscribe .sub-input {
+        margin-top: 20px;
+    }
+    .subscribe .sub-input .mail {
+        border-radius: 22px;
+    }
+    .subscribe .sub-input .sub {
+        border-radius: 22px;
     }
 }
 
