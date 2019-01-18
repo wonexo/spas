@@ -1,0 +1,225 @@
+/* body,
+html {
+margin: 0;
+padding: 0;
+}
+*/
+
+body {
+    background-color: #fcfcfc;
+}
+
+
+/* Quick Info Section */
+
+.quick-info {
+    background: linear-gradient(to right, #ce5e86, #765c79);
+    font-size: 13px;
+}
+
+.quick-info .social-right {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Logo Brand and Search engine section */
+
+.quick-info .social-right a {
+    margin-left: 5px;
+}
+
+.search-brand .first-nav {
+    padding-top: 40px;
+}
+
+.search-brand .first-nav .logo {
+    height: 70px;
+}
+
+.search-brand .first-nav .logo {
+    margin-top: 12px;
+}
+
+.search-brand .first-nav input {
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #c9c9c9;
+    border-radius: 50px;
+}
+
+.search-brand .first-nav input[type=text]:focus {
+    box-shadow: none;
+    border-color: #c9c9c9;
+}
+
+
+/* Navigation Section */
+
+nav .container {
+    width: 95%;
+}
+
+.table {
+    display: table;
+    /* Allow the centering to work */
+    margin: 0 auto;
+}
+
+ul.horizontal-list {
+    min-width: 696px;
+    list-style: none;
+}
+
+ul.horizontal-list li {
+    display: inline;
+}
+
+nav li a:hover {
+    background: none;
+}
+
+nav ul.horizontal-list a {
+    color: #765c79;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 2px solid #765c79;
+    height: 20px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+nav ul.horizontal-list li:last-child a {
+    border: none;
+}
+
+
+/* Main banner section */
+
+section .m-b {
+    margin-bottom: -75px;
+}
+
+section .m-b p {
+    margin-top: 60px;
+}
+
+section .spa-btn {
+    margin-top: 50px;
+    background: #fcfcfc;
+    padding: 20px 40px;
+    color: #765c79;
+    border-radius: 40px;
+    font-size: 1.3em;
+}
+
+
+/* Main page Information Section */
+
+section .m-b h3 {
+    margin-top: 10%;
+}
+
+section.section-space {
+    margin: 80px 0;
+}
+
+.section-space .more-btn {
+    position: relative;
+    top: 15px;
+    color: #fcfcfc;
+    padding: 15px 18px;
+    background: #765c79;
+    border-radius: 8px;
+}
+
+.spa-box {
+    height: 460px;
+    border: 1px solid red;
+}
+
+.spa-box .spa-box-in {
+    height: 220px;
+    border: 1px solid green;
+}
+
+.spa-box .spa-box-in .spa-sum {
+    position: relative;
+    top: 40%;
+}
+
+.spa-box .spa-sum {
+    position: relative;
+    top: 70%;
+}
+
+.rating i {
+    font-size: 0.8em;
+    text-shadow: none;
+}
+
+.jumbo-footer {
+    height: 300px;
+}
+
+
+/* MY extra Library Class */
+
+.text-shadow {
+    text-shadow: 1px 0px 4px black;
+}
+
+.text-bold {
+    font-weight: 450;
+}
+
+.margin-off {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+/* .spa-options .container {
+    position: relative;
+    bottom: 75px;
+} */
+
+@media only screen and (min-width: 993px) {
+    .container {
+        width: 82%;
+    }
+    .quick-info .social-right {
+        text-align: right;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .search-brand .first-nav input {
+        max-width: 85%;
+    }
+    .search-brand .first-nav .logo {
+        margin-top: 0px;
+        text-align: center;
+    }
+    section .m-b {
+        margin-bottom: -30px;
+    }
+    .quick-info .call-num {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    nav,
+    nav a.sidenav-trigger i,
+    nav a.sidenav-trigger {
+        height: 43px;
+        line-height: 20px;
+    }
+    nav a.sidenav-trigger i,
+    nav a.sidenav-trigger {
+        height: 43px;
+        line-height: 40px;
+    }
+}
