@@ -1,4 +1,4 @@
-# Spac Markup Documentaion
+# Spas Markup Documentaion
 
 ## List of tasks achieved
 
