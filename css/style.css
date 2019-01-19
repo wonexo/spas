@@ -233,12 +233,12 @@ footer .copyright {
 .spa2-lg,
 .spa3-lg {
     background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgb(63, 48, 65, .4);
 }
 
 .spa1 {
     position: relative;
     background-image: url('../img/pics/spa-two.jpg');
-    filter: brightness(90%);
     z-index: -1;
 }
 
