@@ -1,4 +1,4 @@
-# Spas Markup Documentaion
+# Spas Markup Documentation
 
 ## List of tasks achieved
 
