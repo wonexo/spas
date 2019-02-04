@@ -8,4 +8,4 @@
 - [x] Use of Source Sans Pro
 - [x] Hosting on Github Pages [click here to view page](https://wonexo.github.io/spas)
 
-##### thanks for Challenge, It was quite interesting :+1: :grin:
+##### :+1: :grin:
